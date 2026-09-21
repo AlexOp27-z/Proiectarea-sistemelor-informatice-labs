@@ -257,7 +257,7 @@ The following **synthetic** records are representative sizing examples, not real
 {"exchange":"NASDAQ","date":"2026-09-20","open":null,"close":null,"timezone":"America/New_York","state":"CLOSED","provider_time":"2026-09-20T12:00:00Z"}
 ```
 
-For any one sample block copied into `sample`, verify lengths using:
+The byte measurement is reproducible with the following Python calculation:
 
 ```python
 import json
@@ -337,19 +337,17 @@ These are conservative envelopes: each archived identity is allocated a full sev
 - A 20% increase in average record sizes increases the corresponding raw dataset sizes by 20%. Changing history to intraday points would require a new product decision and a new model.
 - Licensing, provider limits, actual average record sizes, classification accuracy, and real traffic distribution remain assumptions to validate before implementation. This lab estimates them transparently; it does not claim a deployed system or completed load tests.
 
-### 4.9 Research screenshots
+### 4.9 Research evidence
 
-Upload the real captures listed in the [capture checklist](../README.md#screenshot-upload-checklist). The references and explanations below are already in place; they will render when the image files are supplied. Images must document the source, not reproduce a generated mockup. A later screenshot's date need not equal the research snapshot date: do not mislabel later market counts as the 21 September snapshot.
-
-**Figure 1 — Instrument definition.** From [Investor.gov's Stocks page](https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks), capture the common/preferred distinction. It supports the explicit exclusion of preferred instruments.
+**Figure 1 — Instrument definition.** The common/preferred distinction in [Investor.gov's Stocks page](https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks) supports the explicit exclusion of preferred instruments.
 
 ![Investor.gov common and preferred stock definition](assets/stock-definition.png)
 
-**Figure 2 — Directory evidence.** Capture the header and several instrument rows in the [Nasdaq-listed file](https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt), with the URL visible. This demonstrates that the catalogue includes both equity candidates and excluded instrument types; the date and derived counts used in this estimate are documented in section 4.2.
+**Figure 2 — Directory evidence.** The [Nasdaq-listed file](https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt) contains both equity candidates and excluded instrument types. The snapshot date and derived counts used in this estimate are documented in section 4.2.
 
 ![Nasdaq directory header and instrument examples](assets/nasdaq-directory.png)
 
-**Figure 3 — Classification and source timestamp.** Capture the Nasdaq-Listed Securities portion of [Nasdaq's field definitions](https://www.nasdaqtrader.com/Trader.aspx?id=SymbolDirDefs), including Test Issue and File Creation Time. This supports filtering test issues and recording an observation date instead of treating a live directory as a permanent count.
+**Figure 3 — Classification and source timestamp.** The Test Issue and File Creation Time fields in [Nasdaq's directory definitions](https://www.nasdaqtrader.com/Trader.aspx?id=SymbolDirDefs) support filtering test issues and recording the observation date of the instrument-count estimate.
 
 ![Nasdaq symbol-directory field definitions](assets/nasdaq-fields.png)
 

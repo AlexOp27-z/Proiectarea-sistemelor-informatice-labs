@@ -9,7 +9,7 @@
 
 **Research question:** How do existing products help a user follow market information, and which parts belong in this Dashboard's first version?
 
-The research uses public product pages and official help articles. It does not require a brokerage account, a subscription, or placing a trade. Likely users below are inferred from the documented features, not from user interviews.
+The research uses public product pages and official help articles. Likely users below are inferred from the documented features, not from user interviews.
 
 | Product | Likely user and goal | Reusable pattern | Evidence |
 | --- | --- | --- | --- |
@@ -29,17 +29,15 @@ These are product-scope decisions. They do not infer competitors' internal archi
 
 ### Research evidence
 
-The following image references are ready for the student's own captures. Until the files are uploaded, the screenshot evidence is incomplete. Use the exact filenames in the [capture checklist](../README.md#screenshot-upload-checklist); do not substitute generated images for evidence.
-
-**Figure 1 — Google Finance market overview.** Capture the public [homepage](https://www.google.com/finance/) with its market summary and visible source address. Supports the limited monitoring purpose and DASH-1.
+**Figure 1 — Google Finance market overview.** The market summary on the [Google Finance homepage](https://www.google.com/finance/) supports the monitoring scope and DASH-1.
 
 ![Google Finance market overview](assets/google-finance-overview.png)
 
-**Figure 2 — Google Finance's documented following and watchlist behaviour.** Capture the relevant sections of the [official guide](https://support.google.com/websearch/answer/7579076?hl=en). Supports Search and a personal list without needing to sign in.
+**Figure 2 — Google Finance's documented following and watchlist behaviour.** The [official guide](https://support.google.com/websearch/answer/7579076?hl=en) supports Search and the personal Watchlist scope.
 
 ![Google Finance official watchlist documentation](assets/google-finance-watchlist.png)
 
-**Figure 3 — TradingView's exchange and sector filtering.** Capture the Filters section of the [official screener guide](https://www.tradingview.com/support/solutions/43000718866-tradingview-stock-screener-trade-smarter-not-harder/), including its source address. Supports the simplified Filter scope.
+**Figure 3 — TradingView's exchange and sector filtering.** The Filters section of the [official screener guide](https://www.tradingview.com/support/solutions/43000718866-tradingview-stock-screener-trade-smarter-not-harder/) supports the simplified Filter scope.
 
 ![TradingView exchange and sector filter documentation](assets/tradingview-filters.png)
 
