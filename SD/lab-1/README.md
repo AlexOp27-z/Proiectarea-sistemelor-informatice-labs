@@ -102,7 +102,6 @@ Authentication is a precondition of the reviewed flows. An unauthenticated or ex
 
 ## 4. Functional requirements
 
-The stories use the [Agile Alliance user-story approach](https://agilealliance.org/glossary/user-stories/) and [Three Cs](https://agilealliance.org/glossary/three-cs/): a short story, important cases for discussion, and observable confirmation checks. These are specification checks, not claims of an implemented or tested application.
 
 ### DASH-1 — Market overview
 
@@ -181,7 +180,7 @@ The stories use the [Agile Alliance user-story approach](https://agilealliance.o
 
 ## 5. C4 System Context view
 
-This is a black-box context view, following the [official C4 guidance](https://c4model.com/diagrams/system-context). The Dashboard is one software system; the external provider is not an internal component.
+
 
 ```mermaid
 flowchart LR
