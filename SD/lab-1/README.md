@@ -33,11 +33,9 @@ These are product-scope decisions. They do not infer competitors' internal archi
 
 ![Google Finance market overview](assets/google-finance-overview.png)
 
-**Figure 2 — Google Finance's documented following and watchlist behaviour.** The [official guide](https://support.google.com/websearch/answer/7579076?hl=en) supports Search and the personal Watchlist scope.
+**Google Finance's documented following and watchlist behaviour.** The [official guide](https://support.google.com/websearch/answer/7579076?hl=en) supports Search and the personal Watchlist scope.
 
-![Google Finance official watchlist documentation](assets/google-finance-watchlist.png)
-
-**Figure 3 — TradingView's exchange and sector filtering.** The Filters section of the [official screener guide](https://www.tradingview.com/support/solutions/43000718866-tradingview-stock-screener-trade-smarter-not-harder/) supports the simplified Filter scope.
+**Figure 2 — TradingView's exchange and sector filtering.** The Filters section of the [official screener guide](https://www.tradingview.com/support/solutions/43000718866-tradingview-stock-screener-trade-smarter-not-harder/) supports the simplified Filter scope.
 
 ![TradingView exchange and sector filter documentation](assets/tradingview-filters.png)
 
